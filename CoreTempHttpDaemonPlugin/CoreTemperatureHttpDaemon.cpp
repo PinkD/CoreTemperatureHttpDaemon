@@ -11,10 +11,6 @@
 using namespace std;
 using namespace Json;
 
-//ofstream f("port.log", std::fstream::in | std::fstream::out);
-
-
-
 LPCoreTempSharedData CoreTemperatureHttpDaemon::data = nullptr;
 uint16_t CoreTemperatureHttpDaemon::port = 80;
 
