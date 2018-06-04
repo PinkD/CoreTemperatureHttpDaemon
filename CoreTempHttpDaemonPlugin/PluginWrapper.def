@@ -1,0 +1,4 @@
+LIBRARY	"PluginWrapper"
+EXPORTS
+	GetPlugin @1LIBRARY
+	ReleasePlugin @2LIBRARY
